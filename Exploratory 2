@@ -15,4 +15,4 @@ if type(you_glad) == list:
         else:
             nega_count += 1
     print "Positive numbers in the list: ", posi_count
-    print "Negative numbers in the list: ", nega_coun
+    print "Negative numbers in the list: ", nega_count

@@ -5,18 +5,14 @@ you_glad = [1, 2, 3, 4, 5, 6, 7]
 if type(x) == list():
     raise TypeError("this isnt going to work")
 #seeing if it's a list
-if type(x) == list:
-    print "this is fine"
-
+if type(you_glad) == list:
+    print "This works"
     posi_count, nega_count = 0, 0
-
-    # reiterating each number in the list
+    # reiterating for each number in the list
     for num in you_glad:
-
-        # checking condition 
+        # checking condition
         if num >= 0:
             posi_count += 1
-
         else:
             nega_count += 1
 

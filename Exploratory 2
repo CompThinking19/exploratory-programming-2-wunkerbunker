@@ -1,7 +1,10 @@
 def orange_count(sequence):
     return sequence.count("you_glad")
 you_glad = [-1, 0, 1, 2, 3, 4, 5]
+dint_say = "-1, 0, 1, 2, 3, 4, 5"
 if type(you_glad) == list():
+    raise TypeError("this isnt going to work")
+if type(dint_say) == list():
     raise TypeError("this isnt going to work")
 #seeing if it's a list
 if type(you_glad) == list:
@@ -9,7 +12,7 @@ if type(you_glad) == list:
     posi_count, nega_count = 0, 0
     # reiterating for each number in the list
     for num in you_glad:
-        # checking condition
+        # checking the condition of the numbers in the list
         if num >= 0:
             posi_count += 1
         else:
